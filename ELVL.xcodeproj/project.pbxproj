@@ -10,6 +10,10 @@
 		39101AA52F320051001A1966 /* ELVL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELVL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXBuildFile section */
+		3910C6992F2F358A001A1966 /* SecEdgarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3910C6982F2F358A001A1966 /* SecEdgarKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		39101AA72F320051001A1966 /* ELVL */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3910C6992F2F358A001A1966 /* SecEdgarKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = ELVL;
 			packageProductDependencies = (
+				3910C6982F2F358A001A1966 /* SecEdgarKit */,
 			);
 			productName = ELVL;
 			productReference = 39101AA52F320051001A1966 /* ELVL.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 39101A9C2F320051001A1966;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3910C6972F2F358A001A1966 /* XCLocalSwiftPackageReference "ELVL" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 39101AA62F320051001A1966 /* Products */;
 			projectDirPath = "";
@@ -330,6 +339,20 @@
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3910C6972F2F358A001A1966 /* XCLocalSwiftPackageReference "ELVL" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3910C6982F2F358A001A1966 /* SecEdgarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SecEdgarKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCConfigurationList section */
 		39101AA02F320051001A1966 /* Build configuration list for PBXProject "ELVL" */ = {
